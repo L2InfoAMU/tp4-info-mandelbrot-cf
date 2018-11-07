@@ -51,8 +51,7 @@ public class Complex {
         return real;
     }
 
-    double getImaginary() { return imaginary;
-    }
+    double getImaginary() { return imaginary; }
 
     /**
      * Creates complex numbers corresponding to rotations
@@ -91,7 +90,7 @@ public class Complex {
      * @return A complex <code>c</code> such that <code>this + c = 0</code>
      */
     Complex negate() {
-        return new Complex(-this.real, this.imaginary);
+        return new Complex(-this.real, -this.imaginary);
     }
 
     /**
