@@ -51,8 +51,7 @@ public class Complex {
         return real;
     }
 
-    double getImaginary() {
-        return imaginary;
+    double getImaginary() { return imaginary;
     }
 
     /**
@@ -72,7 +71,7 @@ public class Complex {
      * @return the complex <code>real + 0 i</code>
      */
     public static Complex real(double real) {
-        return new Complex(0, real);
+        return new Complex(real, 0);
     }
 
     /**
