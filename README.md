@@ -8,6 +8,7 @@ Le but du TP sera de corriger le code de la classe `Complex` en s'aidant de test
 ## Membres du projet
 
 - Tofanelli, Enzo, Groupe 1 
+- Diallo Mamadou Mouctar, Groupe 1
 
 
 
