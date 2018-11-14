@@ -136,10 +136,25 @@ public class ComplexTest {
 
 
     @Test
-    void testComplexreal() {
+    void testComplexReal() {
         assertEquals(1, new Complex(1, 0).getReal());
         assertEquals(0, new Complex(1, 0).getImaginary());
         assertEquals(imaginary, new Complex(real, imaginary).getImaginary());
     }
-
+    @Test
+    void testComplexAdd(){
+        assertEquals(two,oneMinusI.add(onePlusI));
+        assertEquals(twoI,minusI.add(minusI));
+        assertEquals()
+    }
 }
+
+
+   /* private final Complex onePlusI = new Complex(1, 1);
+    private final Complex minusI = new Complex(0, -1);
+    private final Complex minusOne = new Complex(-1, 0);
+    private final Complex oneMinusI = new Complex(1, -1);
+    private final Complex twoI = new Complex(0, 2);
+    private final Complex two = new Complex(2, 0);
+    private final double real = -12;
+    private final double imaginary = 10;*/
